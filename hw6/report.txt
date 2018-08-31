@@ -1,0 +1,34 @@
+0. For each of the coding problems below:
+   (a) Describe an exhaustive solution, and analyze compleixty (might be exponential).
+    A: Exhaustive solution computes the value for all possible combinations of given items to fill the bag. Time complexity will be close to or more than O(n!).
+   (b) Describe a greedy solution, and analyze complexity.
+    A: Greedy solution works by first ordering the items in the desending order by ratio value/weight and then picking maximum elements possible to fill the bag in this order. Time complexity will be O(n.log(n)).
+   (c) Show a counterexample to the greedy solution.
+    A: Bagsize is 10 and items are [(3, 30, 5), (2, 19, 5)]  --- item format (w, v, c)
+   (d) Theoretically, is the top-down solution faster, or the bottom-one one faster?
+    A: Top down is faster
+   (e) Empirically, which one is faster? (Try some long random lists)
+    A: Bottom up is faster
+
+1. Unbounded - what are the time and space complexities?
+A: Time complexity is O(n.W) and space complexity is O(W)
+
+2. Bounded - what are the time and space complexities?
+A: Time complexity is O(sumation(c_i).W) and space complexity is O(nW)
+
+Debriefing (required!): --------------------------
+
+0. What's your name?
+A: Prasad Hanwadikar
+1. Approximately how many hours did you spend on this assignment?
+A: 12 hours
+2. Would you rate it as easy, moderate, or difficult?
+A: Difficult
+3. Did you work on it mostly alone, or mostly with other people?
+A: Mostly with other people
+4. How deeply do you feel you understand the material it covers (0%-100%)?
+A: 70%
+5. Which part(s) of the course you like the most so far?
+A: Heaps and priority queue
+6. Which part(s) of the course you dislike the most so far?
+A: Knapsack problems

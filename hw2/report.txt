@@ -1,0 +1,26 @@
+#Prasad Hanwadikar - CS519 - HW2
+
+0: Which of the following sorting algorithms are (or can be made) stable?
+    (a) mergesort - stable
+    (b) quicksort with the first element as pivot - stable
+    (c) quicksort with randomized pivot - not stable
+    (d) selection sort - stable
+    (e) insertion sort - stable
+    (f) heap sort - not stable
+
+========================================================================================================================
+
+Debriefing:
+
+0. What's your name?
+    Prasad Hanwadikar
+1. Approximately how many hours did you spend on this assignment?
+    7 hours
+2. Would you rate it as easy, moderate, or difficult?
+    Moderate
+3. Did you work on it mostly alone, or mostly with other people?
+   [Note you are encouraged to discuss with your classmates, but each students should submit his/her own code.]
+   Mix, before discussing I had thoughts about solution
+4. How deeply do you feel you understand the material it covers (0%-100%)?
+    80%
+5. Any other comments?

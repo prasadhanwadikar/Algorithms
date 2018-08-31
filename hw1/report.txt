@@ -1,0 +1,42 @@
+#Prasad Hanwadikar - CS519 - HW1
+
+0: What's the best-case, worst-case, and average-case time complexities of quicksort. Briefly explain each case.
+Best Case: O(nlog(n)) - each divide-conquer-combine iteration costs O(n) and there are such log(n) iterations in best case
+Average Case: O(nlog(n)) - each divide-conquer-combine iteration costs O(n) and there are such log(n) iterations in average case
+Worst Case: O(n^2) - each divide-conquer-combine iteration costs O(n) and there can be such n iterations if tree is completely unbalanced as a diagonal
+
+1: What's the best-case, worst-case, and average-case time complexity for qselect? Briefly explain.
+Best Case: O(n) - in best case Kth item can be first iteration pivot
+Average Case: O(nlog(n)) - this is similar to the quick sort average case
+Worst Case: O(n^2) - this is similar to the quick sort worst case
+
+2: What are the time complexities for the operations(sorted, search, insert) implemented?
+sorted method:
+Best Case: O(log(n)) - each iteration of recursion costs O(1) and there will be log(n) recursive iterations
+Average Case: O(log(n)) - each iteration of recursion costs O(1) and there will be log(n) recursive iterations
+Worst Case: O(n) - each iteration of recursion costs O(1) and there can be n recursive iterations if tree is completely unbalanced as a diagonal
+
+search method:
+Best Case: O(1) - best case can have node to be searched as the root of the tree
+Average Case: O(log(n)) - in average case each iteration reduces nodes to be searched by half hence maximum log(n) recursions required each with O(1)
+Worst Case: O(n) - each iteration of recursion costs O(1) and there can be n recursive iterations if tree is completely unbalanced as a diagonal
+
+insert method:
+Best Case: O(1) - best case can have node to be inserted as the first/root node in given empty tree
+Average Case: O(log(n)) - in average case each iteration reduces nodes to be searched by half hence maximum log(n) recursions required each with O(1)
+Worst Case: O(n) - each iteration of recursion costs O(1) and there can be n recursive iterations if tree is completely unbalanced as a diagonal
+
+========================================================================================================================
+
+Debriefing:
+
+1. Approximately how many hours did you spend on this assignment?
+A: 8 hours
+2. Would you rate it as easy, moderate, or difficult?
+A: Moderate
+3. Did you work on it mostly alone, or mostly with other people?
+A: Alone
+4. How deeply do you feel you understand the material it covers (0%–100%)?
+A: 80%
+5. Any other comments?
+A: I found it difficult to read and understand the homework. Better format (like PDF) should help.

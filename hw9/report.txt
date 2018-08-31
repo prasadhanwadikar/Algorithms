@@ -1,0 +1,29 @@
+1. Dijkstra
+A: Time complexity: O((V+E)logV)
+   Space complexity: O(V)
+
+2. Traveling Salesman Problem
+A: Sub problem:
+   Recurrence Relation: OPT[S][i] =     min       OPT[S - {j}][j] + c(j,i)
+                                    j in S - {i}
+   Time complexity:
+     Viterbi: O((2^V)V^2)
+     Dijkstra: O((2^V)V^3)
+   Space complexity: O((2^V)V)
+
+Debriefing (required!): --------------------------
+
+0. What's your name?
+Prasad Hanwadikar
+1. Approximately how many hours did you spend on this assignment?
+12 hours
+2. Would you rate it as easy, moderate, or difficult?
+Difficult
+3. Did you work on it mostly alone, or mostly with other people?
+Mostly Alone
+4. How deeply do you feel you understand the material it covers (0%–100%)?
+70%
+5. Which part(s) of the course you like the most so far?
+Priority Queue, Viterbi, Dijkstra
+6. Which part(s) of the course you dislike the most so far?
+NA

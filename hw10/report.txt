@@ -1,0 +1,40 @@
+1. best
+A: Time complexity: O(n^3)
+   Space complexity: O(n^2)
+   Algorithm: Top down as per recurance relation
+          opt[i,j] = \oplus { \oplus_{i<k<=j} opt[i,k-1] \otimes opt[k,j] \otimes 1, opt[i+1, j] }
+          Here, \oplus = max and \otimes = +
+
+2. total
+A: Time complexity: O(n^3)
+   Space complexity: O(n^2)
+   Algorithm: Top down as per recurance relation
+          opt[i,j] = \oplus { \oplus_{i<k<=j} opt[i,k-1] \otimes opt[k,j] \otimes 1, opt[i+1, j] }
+          Here, \oplus = + and \otimes = *
+
+3. kbest
+A: Time complexity: O(n^3 + n^2.k.logn))
+   Space complexity: O(n^2.k)
+   Algorithm: Naive approach: Derived all possible structures with # of pairs, then reversely sorted all structures, then picked first k items.
+              Matrices approach: Build a list of tuples, with each tuple a pair of strings i.e. left and right part of s partitioned by l, for all values of l.
+              Same list will have one tuple with only one string created other part of recurrance relation. Also push best elements for all these tuples of strings
+              in a heap. Also keep track of positions which per tuple which gave kbest for that string. Pop from heap till k elements are gathered or all
+              possible structures have been filled in result. After each pop from heap identify it is from which tuple of sub strings and compute next best
+              structure for each of the sub string of pair by incrementing matrix pointers.
+
+Debriefing (required!): --------------------------
+
+0. What's your name?
+Prasad Hanwadikar
+1. Approximately how many hours did you spend on this assignment?
+15 hours
+2. Would you rate it as easy, moderate, or difficult?
+Difficult
+3. Did you work on it mostly alone, or mostly with other people?
+Mostly alone but discussed last problem algorithm with others
+4. How deeply do you feel you understand the material it covers (0%–100%)?
+70%
+5. Which part(s) of the course you like the most so far?
+Dynamic programming and graph problems
+6. Which part(s) of the course you dislike the most so far?
+Nothing as such

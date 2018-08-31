@@ -1,0 +1,22 @@
+0. What's your name?
+Prasad Hanwadikar
+
+1. Approximately how many hours did you spend on this assignment?
+6 hours
+
+2. Would you rate it as easy, moderate, or difficult?
+Difficult
+
+3. Did you work on it mostly alone, or mostly with other people?
+   Note you are encouraged to discuss with your classmates,
+   but each students should submit his/her own code.
+Mostly with other
+
+4. How deeply do you feel you understand the material it covers (0%-100%)?
+80%
+
+5. Which part(s) of the course you like the most so far?
+Solving the homeworks
+
+6. Which part(s) of the course you dislike the most so far?
+I find it difficult sometimes to keep up with the pace of the class

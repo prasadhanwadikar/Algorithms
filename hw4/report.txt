@@ -1,0 +1,52 @@
+0. There are two methods for building a heap from an unsorted array:
+   (1) insert each element into the heap  --- O(nlogn)
+   (2) heapify (top-down)                 --- O(n)
+
+   (a) Derive these time complexities.
+       (1): Complexity to push one element in heap of n elements is O(logn) so total complexity to push n elements is O(nlogn).
+       (2): Heapify just performs the swaps in the given input list to enforce heap properties. In worst case also maximum such swaps will be n hence the complexity is O(n).
+   (b) Use a long list of random numbers to show the difference in time. (Hint: random.shuffle)
+
+   (c) What about sorted or reversely-sorted numbers?
+        Sorted Array:
+        (1) Insert n elements one by one: O(n2)
+        (2) Heapify: O(nlogn)
+        Reversly Sorted Array:
+        (1) Insert n elements one by one: O(n2)
+        (2) Heapify: O(nlogn)
+
+1: What are the time complexities of these algorithms?
+   (a) enumerate all n^2 pairs, sort, and take top n.
+        O(n^2.logn)
+   (b) enumerate all n^2 pairs, but use qselect from hw1.
+        O(n2)
+   (c) Dijkstra-style best-first, only enumerate O(n) (at most 2n) pairs.
+        O(nlogn)
+
+2: What is your complexity?
+A: Best and worst case for kmergesort is same as number of calls to merge pieces and heap size remains same for same size array with same k.
+    Best/Average/Worst Case: O(nlogn)
+    Cost of mergepieces method is O(nlogk) and number of times mergepieces get called is logn/logk hence total complexity
+    O(n.logk.logn/logk) = O(nlogn)
+
+3: What is your complexity?
+A: Best case: O(n) as in best case input datastream is sorted and heappush will be called only k times.
+   Worst case: O(nlogn) as in the worst case when input datastream is reversly sorted heappush will be called n times.
+
+Debriefing:
+0. What's your name?
+Prasad Hanwadikar
+1. Approximately how many hours did you spend on this assignment?
+12 hours
+2. Would you rate it as easy, moderate, or difficult?
+Moderate but lengthy assignment
+3. Did you work on it mostly alone, or mostly with other people?
+   Note you are encouraged to discuss with your classmates,
+   but each students should submit his/her own code.
+Mostly alone
+4. How deeply do you feel you understand the material it covers (0%-100%)?
+80%
+5. Which part(s) of the course you like the most so far?
+Priority queue and heaps as it is explained well in class
+6. Which part(s) of the course you dislike the most so far?
+Initial few classes

@@ -1,0 +1,52 @@
+
+0. LIS
+(a) Describe a greedy algorithm for LIS and show a counter example.
+A: Consider first character for sure part of LIS and look for characters greater than it successively. Eg: "pqracdefz"
+(b) Describe an exhaustive algorithm for TSP and analyze complexity.
+A: Try all modes permutations (ordered combinations) and see which one is cheapest. TC: O(n!)
+====================================================================================================
+
+1. Longest (Strictly) Increasing Subsequence
+
+Time complexity: O(n^2) where n is characters in input string
+Space complexity: O(n) where n is characters in input string
+
+====================================================================================================
+
+2. Topological Sort
+
+Time complexity: O(v+e) where v is # of nodes and e # of edges
+Space complexity: O(v) where e # of edges
+
+(a) did you realize that bottom-up implementations of DP use (implicit) topological orderings?
+    e.g., what is the topological ordering in your (or my) bottom-up bounded knapsack code?
+A: BFS
+(b) what about top-down implementations? what order do they use to traverse the graph?
+A: DFS
+(c) does that suggest there is a top-down solution for topological sort as well?
+A: Yes
+====================================================================================================
+
+3. Viterbi Algorithm
+
+Time complexity: O(V+E)
+Space complexity: O(V)
+
+====================================================================================================
+
+Debriefing (required!): --------------------------
+
+0. What's your name?
+Prasad Hanwadikar
+1. Approximately how many hours did you spend on this assignment?
+8 hours
+2. Would you rate it as easy, moderate, or difficult?
+moderate
+3. Did you work on it mostly alone, or mostly with other people?
+mostly alone
+4. How deeply do you feel you understand the material it covers (0%–100%)?
+70%
+5. Which part(s) of the course you like the most so far?
+heaps and priority queue
+6. Which part(s) of the course you dislike the most so far?
+NA

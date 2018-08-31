@@ -1,0 +1,32 @@
+0: Is Fibonacci REALLY O(n)?
+A: Yes as f(n) gets calculated only once for each value of n from 1 to n.
+
+1: What's the complexity MIS problem?
+A: O(n) as maximum sum and max independent set gets calculated only once for each value of length from 1 to n.
+
+2: Number of BSTs - What's the complexity of this DP? What's the name of this famous number series?
+A: O(n) as number of BSTs per value of n (1 to n) gets calculated only once. Name of number series is Catalan number series.
+
+
+Debriefing:
+
+0. What's your name?
+A: Prasad Hanwadikar
+
+1. Approximately how many hours did you spend on this assignment?
+A: 8 hours
+
+2. Would you rate it as easy, moderate, or difficult?
+A: Moderate
+
+3. Did you work on it mostly alone, or mostly with other people?
+A: Mostly alone
+
+4. How deeply do you feel you understand the material it covers (0%-100%)?
+A: 85%
+
+5. Which part(s) of the course you like the most so far?
+A: I think am able to understand the logic of various algorithms and use that logic in solving assignment questions
+
+6. Which part(s) of the course you dislike the most so far?
+A: I often get stuck or confused calculating the complexity for a given code or algorithm which involves recursion.
